@@ -1,0 +1,210 @@
+2023-12-19 14:59:28,002 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: Version 5.5
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: java.version=18.0.1.1
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: os.name=Windows 10
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: os.arch=amd64
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: os.version=10.0
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: java.awt.headless=null
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-12-19 14:59:28,022 INFO o.a.j.JMeter: Available Processors =16
+2023-12-19 14:59:28,032 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-12-19 14:59:28,032 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-12-19 14:59:28,032 INFO o.a.j.JMeter: JMeterHome=D:\Learn JMETER from Scratch on Live Apps -Performance Testing\jmeter\apache-jmeter-5.5
+2023-12-19 14:59:28,032 INFO o.a.j.JMeter: user.dir  =D:\Learn JMETER from Scratch on Live Apps -Performance Testing\jmeter\apache-jmeter-5.5\bin
+2023-12-19 14:59:28,032 INFO o.a.j.JMeter: PWD       =D:\Learn JMETER from Scratch on Live Apps -Performance Testing\jmeter\apache-jmeter-5.5\bin
+2023-12-19 14:59:28,032 INFO o.a.j.JMeter: IP: 192.168.1.2 Name: EG-1BTJRG3 FullName: EG-1BTJRG3.STA.com
+2023-12-19 14:59:28,043 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-12-19 14:59:28,225 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-12-19 14:59:29,261 WARN o.j.r.PluginManager: Found JAR conflict: D:\Learn JMETER from Scratch on Live Apps -Performance Testing\jmeter\apache-jmeter-5.5\lib\mssql-jdbc-12.2.0.jre8.jar and D:\Learn JMETER from Scratch on Live Apps -Performance Testing\jmeter\apache-jmeter-5.5\lib\mssql-jdbc-12.2.0.jre11.jar
+2023-12-19 14:59:29,586 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_10-880d4fb7e1e14f01c8e3585cf91fa015-gui
+2023-12-19 14:59:33,676 INFO o.j.r.PluginManager: Plugins Status: [jpgc-casutg=2.10, jpgc-plugins-manager=1.9, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2023-12-19 14:59:33,676 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2023-12-19 14:59:54,618 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-12-19 14:59:54,618 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-12-19 14:59:54,618 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-12-19 14:59:54,618 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-12-19 14:59:54,618 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-12-19 14:59:54,618 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-12-19 14:59:59,225 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-12-19 14:59:59,225 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-12-19 14:59:59,225 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-12-19 14:59:59,225 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-12-19 14:59:59,318 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-12-19 15:11:56,792 INFO o.a.j.s.FileServer: Default base='D:\Learn JMETER from Scratch on Live Apps -Performance Testing\jmeter\apache-jmeter-5.5\bin'
+2023-12-19 15:11:56,792 INFO o.a.j.s.FileServer: Set new base='D:\performance'
+2023-12-19 15:11:56,901 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-12-19 15:11:56,916 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-12-19 15:11:56,916 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-12-19 15:11:56,932 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-12-19 15:11:56,932 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-12-19 15:11:56,932 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-12-19 15:11:56,938 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-12-19 15:11:56,938 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-12-19 15:11:56,957 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-12-19 15:11:56,989 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-12-19 15:11:56,989 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-12-19 15:11:56,989 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-12-19 15:11:56,989 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-12-19 15:11:56,989 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-12-19 15:11:56,989 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-12-19 15:11:56,989 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-12-19 15:11:56,989 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = EG-1BTJRG3
+2023-12-19 15:11:56,989 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-12-19 15:11:57,038 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-12-19 15:11:57,038 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-12-19 15:11:57,038 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-12-19 15:11:57,153 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-12-19 15:11:57,153 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-12-19 15:11:57,169 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-12-19 15:11:57,503 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-12-19 15:11:57,756 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-12-19 15:11:57,756 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-12-19 15:11:58,002 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2023-12-19 15:11:58,153 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2023-12-19 15:11:58,153 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-12-19 15:11:58,489 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2023-12-19 15:11:58,658 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2023-12-19 15:11:58,658 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2023-12-19 15:11:58,989 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2023-12-19 15:11:59,183 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2023-12-19 15:11:59,183 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2023-12-19 15:11:59,489 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2023-12-19 15:11:59,688 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2023-12-19 15:11:59,689 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2023-12-19 15:11:59,989 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2023-12-19 15:12:00,490 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2023-12-19 15:12:00,490 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2023-12-19 15:12:00,490 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2023-12-19 15:12:00,701 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2023-12-19 15:12:00,701 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2023-12-19 15:12:00,990 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2023-12-19 15:12:01,153 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2023-12-19 15:12:01,153 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2023-12-19 15:12:01,490 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2023-12-19 15:12:01,664 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2023-12-19 15:12:01,664 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2023-12-19 15:12:02,350 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2023-12-19 15:12:02,350 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2023-12-19 15:12:02,350 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-12-19 15:12:02,350 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-12-19 15:13:57,231 WARN o.a.j.r.ResultCollector: Problem reading JTL file: D:\performance\results\reports.csv
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(CoderResult.java:274) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at org.apache.jmeter.reporters.ResultCollector.loadExistingFile(ResultCollector.java:373) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.visualizers.gui.AbstractVisualizer.stateChanged(AbstractVisualizer.java:247) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.util.FilePanelEntry.fireFileChanged(FilePanelEntry.java:140) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.util.FilePanelEntry.actionPerformed(FilePanelEntry.java:155) ~[ApacheJMeter_core.jar:5.5]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.Component.processMouseEvent(Component.java:6616) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3398) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6381) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4991) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4823) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4823) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:747) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:744) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2023-12-19 15:14:09,809 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-12-19 15:14:09,809 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-12-19 15:14:09,815 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-12-19 15:14:09,836 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-12-19 15:14:09,836 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-12-19 15:14:09,836 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-12-19 15:14:09,836 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-12-19 15:14:09,836 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-12-19 15:14:09,836 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-12-19 15:14:09,836 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-12-19 15:14:10,350 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-12-19 15:14:10,501 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-12-19 15:14:10,502 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-12-19 15:14:10,852 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2023-12-19 15:14:11,046 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2023-12-19 15:14:11,046 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-12-19 15:14:11,336 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2023-12-19 15:14:11,480 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2023-12-19 15:14:11,480 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2023-12-19 15:14:11,836 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2023-12-19 15:14:11,987 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2023-12-19 15:14:11,988 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2023-12-19 15:14:12,337 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2023-12-19 15:14:12,512 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2023-12-19 15:14:12,513 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2023-12-19 15:14:12,837 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2023-12-19 15:14:12,996 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2023-12-19 15:14:12,996 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2023-12-19 15:14:13,336 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2023-12-19 15:14:13,535 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2023-12-19 15:14:13,536 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2023-12-19 15:14:13,837 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2023-12-19 15:14:13,986 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2023-12-19 15:14:13,986 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2023-12-19 15:14:14,337 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2023-12-19 15:14:14,456 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2023-12-19 15:14:14,456 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2023-12-19 15:14:15,003 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2023-12-19 15:14:15,003 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2023-12-19 15:14:15,003 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-12-19 15:14:15,003 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-12-19 15:14:55,841 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-12-19 15:14:55,841 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-12-19 15:14:55,842 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-12-19 15:14:55,870 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-12-19 15:14:55,870 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Thread Group.
+2023-12-19 15:14:55,870 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-12-19 15:14:55,870 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=5 delayedStart=false
+2023-12-19 15:14:55,870 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-12-19 15:14:55,870 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-12-19 15:14:55,870 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-12-19 15:14:56,879 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-12-19 15:14:57,544 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2023-12-19 15:14:57,544 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-12-19 15:14:57,553 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-12-19 15:14:57,553 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-12-19 15:14:57,871 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2023-12-19 15:14:58,871 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2023-12-19 15:14:59,539 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2023-12-19 15:14:59,539 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2023-12-19 15:14:59,541 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2023-12-19 15:14:59,541 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2023-12-19 15:14:59,870 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2023-12-19 15:15:00,524 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2023-12-19 15:15:00,524 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2023-12-19 15:15:00,524 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-12-19 15:15:00,524 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

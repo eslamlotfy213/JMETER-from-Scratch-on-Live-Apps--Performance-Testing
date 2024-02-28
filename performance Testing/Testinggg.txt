@@ -1,0 +1,103 @@
+bot messages
+-links inside messages redirect user to open IOS > safari
+open application 
+- links inside messages redirect user to open lore production 
+
+any message
+- links inside message "do yo like skydiving?" it open user correctly not guest 
+
+
+prejdise feeling   . overall attitud   : I like or dislike a group . belief
+
+streo ideas group  .  specific belief.
+
+Stereotypes define either I like or dislike a group. False
+-----------------------------------------------------------------------------------------------
+from my end 
+still I working 2nd on reviewing new website against XD new updated
+and Im preparing some questions will be shared them at community
+no blokcer
+
+
+
+
+april release 
+own profile orange
+someone else purple
+mobile view / desktop
+safari / chrome
+=================================================================================================
+ 1. Api expexted time how much will take ?
+ 2. How many users ?
+ 3. Scope of Testing?
+ 4. type of testing 10 users , 20 users ? under load test  ?
+ 5. what is the accepeted ?
+ 
+ steps
+ . scenario
+ . record 
+ . modification 
+=================================================================================================
+test backed aih ?
+type of testing ? 10 users loop load 5min 
+
+                  20
+				  30
+                  50
+
+500 users loads same under
+accpted 1 hours
+
+
+scenarios 
+jemeter 
+home page 				  
+record scenarios 
+modification unnessasry
+
+resposne product id    -> variable csv 
+product owner 
+
+
+->aggreated reports 
+->resposne save variable
+
+
+jemter 
+binary  bin bat 
+test plan     base url , general file
+            thread group             
+			thread group 		
+     contorller  collection of apis
+	 Https request 
+Data >users  excel csv 
+user defined varaibles 
+${ }  > to read value ?
+regulare expersion 
+
+Web 
+Mobile
+
+cmd jemter  ??
+get output as csv and html report ?
+------------------------------------------------------------------------------------------------
+testplan 
+   thread group 
+   loop 
+   csv 50 :users
+   http request
+   listencer
+   
+  kas api 
+  display name
+  aggreated report 
+  
+  
+  api request    
+  50%  
+  question 
+
+  
+  memorizer   ?
+  rest asserted?
+  java try catach   > List classes 

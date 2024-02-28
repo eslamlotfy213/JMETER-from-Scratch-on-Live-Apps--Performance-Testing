@@ -1,0 +1,25 @@
+2023-05-10 06:54:22,031 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2023-05-10 06:54:22,121 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-05-10 06:54:22,127 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: Version 5.5
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: java.version=18.0.1.1
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: os.name=Windows 10
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: os.arch=amd64
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: os.version=10.0
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: java.awt.headless=null
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: Max memory     =8518631424
+2023-05-10 06:54:22,142 INFO o.a.j.JMeter: Available Processors =16
+2023-05-10 06:54:22,157 INFO o.a.j.JMeter: Default Locale=English (United States)
+2023-05-10 06:54:22,157 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2023-05-10 06:54:22,157 INFO o.a.j.JMeter: JMeterHome=D:\performance Testing\jmeter\apache-jmeter-5.5
+2023-05-10 06:54:22,157 INFO o.a.j.JMeter: user.dir  =D:\performance Testing\jmeter\apache-jmeter-5.5\bin
+2023-05-10 06:54:22,157 INFO o.a.j.JMeter: PWD       =D:\performance Testing\jmeter\apache-jmeter-5.5\bin
+2023-05-10 06:54:22,157 INFO o.a.j.JMeter: IP: 192.168.8.184 Name: EG-1BTJRG3 FullName: EG-1BTJRG3.STA.com
+2023-05-10 06:54:22,181 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-05-10 06:54:22,556 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-05-10 06:54:24,839 WARN o.j.r.PluginManager: Found JAR conflict: D:\performance Testing\jmeter\apache-jmeter-5.5\lib\mssql-jdbc-12.2.0.jre8.jar and D:\performance Testing\jmeter\apache-jmeter-5.5\lib\mssql-jdbc-12.2.0.jre11.jar
+2023-05-10 06:54:25,414 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_10-054b62cca30f4837145a8d7bd5f46349-gui
+2023-05-10 06:54:28,557 INFO o.j.r.PluginManager: Plugins Status: [jpgc-casutg=2.10, jpgc-plugins-manager=1.9, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]

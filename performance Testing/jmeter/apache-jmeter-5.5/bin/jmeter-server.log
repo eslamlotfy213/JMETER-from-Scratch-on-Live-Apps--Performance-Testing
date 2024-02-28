@@ -1,0 +1,36 @@
+2023-04-09 17:51:00,935 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-04-09 17:51:00,947 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-04-09 17:51:00,947 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: Version 5.5
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: java.version=1.8.0_341
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: os.name=Windows 10
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: os.arch=amd64
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: os.version=10.0
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: java.awt.headless=true
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-04-09 17:51:00,957 INFO o.a.j.JMeter: Available Processors =16
+2023-04-09 17:51:00,961 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-04-09 17:51:00,961 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-04-09 17:51:00,961 INFO o.a.j.JMeter: JMeterHome=D:\performance Testing\jmeter\apache-jmeter-5.5
+2023-04-09 17:51:00,961 INFO o.a.j.JMeter: user.dir  =D:\performance Testing\jmeter\apache-jmeter-5.5\bin
+2023-04-09 17:51:00,962 INFO o.a.j.JMeter: PWD       =D:\performance Testing\jmeter\apache-jmeter-5.5\bin
+2023-04-09 17:51:00,963 INFO o.a.j.JMeter: IP: 192.168.1.4 Name: EG-1BTJRG3 FullName: EG-1BTJRG3.STA.com
+2023-04-09 17:51:00,984 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-04-09 17:51:00,984 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-04-09 17:51:01,587 INFO o.a.j.e.RemoteJMeterEngineImpl: Starting backing engine on 1099
+2023-04-09 17:51:01,587 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2023-04-09 17:51:01,588 INFO o.a.j.r.RmiUtils: Local IP address=192.168.1.4
+2023-04-09 17:51:01,588 INFO o.a.j.e.RemoteJMeterEngineImpl: IP address is a site-local address; this may cause problems with remote access.
+	Can be overridden by defining the system property 'java.rmi.server.hostname' - see jmeter-server script file
+2023-04-09 17:51:01,588 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating RMI registry (server.rmi.create=true)
+2023-04-09 17:51:01,588 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-04-09 17:51:01,588 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-04-09 17:51:01,590 WARN o.a.j.e.RemoteJMeterEngineImpl: Problem creating registry: java.rmi.server.ExportException: Port already in use: 1099; nested exception is: 
+	java.net.BindException: Address already in use: JVM_Bind
+2023-04-09 17:51:01,592 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2023-04-09 17:51:01,593 INFO o.a.j.r.RmiUtils: Local IP address=192.168.1.4
+2023-04-09 17:51:01,593 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-04-09 17:51:01,655 INFO o.a.j.e.RemoteJMeterEngineImpl: Bound to RMI registry on port 1099

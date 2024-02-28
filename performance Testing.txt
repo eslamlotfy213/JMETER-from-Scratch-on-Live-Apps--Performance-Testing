@@ -1,0 +1,361 @@
+https://www.perfmatrix.com/apache-jmeter-tutorial/
+javac -version  
+ javac 18.0.1.1
+java --version
+	java version "1.8.0_341"
+	Java(TM) SE Runtime Environment (build 1.8.0_341-b10)
+	Java HotSpot(TM) 64-Bit Server VM (build 25.341-b10, mixed mode)
+
+performnac testing to ensure software application well perform well under workload
+automaton single user 
+performance testing 1000users 
+
+Loadrunner but has high cost 
+why jemeter ?
+	open source 
+	cross platform support 
+	any opertation system
+	scripting isn't esstential to learn
+	jemeter GUi is friendly to user 
+
+Testplan > consiste of acions and compondents you need to execute your performance test script
+workbench > temp storage and imporatant for Test Recoreder  and it will be removed 
+
+
+Test plan> NunTestElements > Https(s)TestScript Recoreder
+
+>Https(s)TestScript Recoreder  
+          : Test go and perform acions on Web
+		  : need request and response
+ 
+firefox defaults > Use system proxy settings
+change it to manual port
+	localhost  127.0.0.1
+	http fine 
+	https https website need certificate from jemeter	
+	certificate is added after clicking start button 
+	
+how to add certificate in firefox?
+	1.open firefox browser 
+	2.view 
+	3.authorities
+	4.import
+	
+website >>>>>>>>>>> https://blazedemo.com/
+   
+   recording blazmeter plugin with chrome extension
+   blazmeter initial recording 
+   recording then import into jemeter   .jmx files 	
+      
+   jemeter put 100000 load on userflow------
+--------------------------------------------------------------------------------------------------------
+thread groups ? is set of threads/users execution on the same scenario
+understand the process of load the application
+
+threads : numbers of users > 50 users 
+
+Ramp up : amount of time it will take Apache JMeter™ to add all test users /(threads) to a test execution.
+how long it will take for JMeter to start execution of all the threads.
+
+Loop count : number of iteration for threads 
+
+forever/infinits + duration (60)  : all the time but you use "schudule" 
+ 	
+    eveything is self explaintorty
+	
+how to monitor the results and track 
+Test plan > listeners 
+ 
+ 1-view results tree
+          green mark 
+		  red mark
+ 2-aggregate report
+ 3-graph results
+ 
+
+
+    samples : number of user hits that specific request
+	medien: time in the middle 50% set of samples 
+	std < avg : exception or errors when deviation from avg value  less than < avg 
+	average : avg time taken by all samples executed specific lable 
+    min : shortest time taken to get response for sepecific lable
+	max : longest time taken to get response  for specific lable
+	error : percentage of failled 
+    throughput : maximum capablity of server for processing request 
+    ex: 100 users  with  123 request/sec for reserver page
+	    100 user with  0.5 min  
+
+
+how is Good performacne ?
+	throughput >>>>>>>>>>  should n't decrease 
+	std        >>>>>>>>>>  should n't increase 
+	avg time for all samples executed for specific lable 
+
+---------------to add plugins-manager---------------------------------------------------------------------------------------
+Download plugins-manager.jar and put it into lib/ext directory, then restart JMeter.
+Download https://jmeter-plugins.org/
+open options plugins manager 
+             concurrency thread groups
+			 ultimate thread groups
+
+---------------cookies-------------------------------------------------------------
+Http cookies manager 
+cookies is impotant to identify yours
+cookies stored in browser
+jemeter not browser to save cookies
+
+
+-> open response data > response header -> to get cookies
+before adding cookies
+	GET https://the-internet.herokuapp.com/login
+	GET data:
+	[no cookies]
+
+after adding cookies
+	GET https://the-internet.herokuapp.com/secure
+	GET data:
+	Cookie Data:
+	rack.session=BAh7CUkiD3Nlc3Npb25faWQGOgZFVEkiRWRhMDU2OTY1MGM0YzY4YTNlZTYy%0AYjgzNTViYTQwMmU0ZGY0YzIzZWU3YTZjMzU1YzMwMWE4MzA1ZTM3NTI4ZjgG%0AOwBGSSIJY3NyZgY7AEZJIiVhNzVlYjhmMzJiZWRmYzFhNWE2MzhmYjRjZTEw%0AY2E3NwY7AEZJIg10cmFja2luZwY7AEZ7B0kiFEhUVFBfVVNFUl9BR0VOVAY7%0AAFRJIi1jNjhmNDk4ZjRjYTBjYTkxODdhNWJhMzI1MDAzNjYwMGI1MzYxNWFi%0ABjsARkkiGUhUVFBfQUNDRVBUX0xBTkdVQUdFBjsAVEkiLWRkMDY1ZWQyNjNj%0ANjdkNzk5Zjk0M2FiNmMzOWI1NWM1ZTAwOGNiYjUGOwBGSSIKZmxhc2gGOwBG%0AewA%3D%0A--c0926fde88ae6f9b5964b9042b1155a016ceae88
+
+link : https://the-internet.herokuapp.com/login
+
+---------------------validate----------------------------------------------------------
+Assertions
+Add > Assertions > Response assertions    
+          response code equal 200
+          response text contains ""		  
+Testplan > add > listerner > Assertion results
+ 
+size assertion > size in bytes(actual in jemeter)
+
+duration assertion > maximun time taked for response 3 milliseconds
+         example :It took 438 milliseconds, but should not have lasted longer than 30 milliseconds.
+ 
+--------create an account on web performace------------------------------------------------------------------------------------------
+link : https://www.microfocus.com/marketplace/appdelivery/content/web-tours-sample-application
+email    cohebo2807@loongwin.com
+password User123#
+
+
+		challengs:
+		1.install strawberry-perl-5.10.1.0 to continue.
+		2.200 status code – and response may be the wrong one-
+         AddEmployee - employee is successfully added  200 status Employee already exists
+-----------------------website-----------------------------------------
+website : http://localhost:1080/WebTours    /   http://localhost:1080/webTours/index.htm
+email :test
+password :123
+
+
+192.168.1.4
+
+1: Type about:config in firefox address bar and search for
+a.) Network.captive-portal-service.enabled" and set to FALSE.
+b.) Network.proxy.allow_hijacking_localhost and set to TRUE
+-----------------------------------------------------------------------
+--------------------controller--------------------------------
+It's  container/folder to store requests
+help to track  performace testing for modules
+
+login              login controller 
+search for flight  filght controller 
+passenger details , payment action   (Reservation controller modules)
+most commomt controller 
+thread > add > login controller 
+   simple controller 
+   Transaction controller
+   recording controller
+test plan creation : target controller  : user Recording controller
+
+recording controller   > recording samples / request 
+   
+Transaction controller >  genetate aggregate transaction modules level
+
+Simple controller      > similare to transaction but not performacne reported  
+on module level  it's a normal controller
+
+module controller      >to repeate controller with repeate code 
+just select which controll and will increment inside aggreate report 
+
+
+interleave controll> pick one controller for every iteration   top bottom
+    you have forexample : 2 iteration 
+     flight 1  will be picked one  for iteration number 1	 
+	 flight 2  will be picked one for  iteration number 2
+
+Runtime controller > controll execution of samples / requests  to put load 
+how many secodns you want to run this ? 
+
+Randoum controller > pick plays only one of its children samples picking its randomly randomly controller will childeren 
+
+order controller   > run samples and pick
+-----------controller for stress testing----------------------------- 
+if controller   > based on condiction 
+loop controller > how many time to loop  
+--------------timer usage----------------------
+50 users to put load
+2 mintues agree 60 secounds
+thread group 
+you can user constant timer to add gap between threads
+   Constant Timer
+   Gaussona Random time 
+   constant throghput delay :
+------------------------------concept regulare expression-----------------------   
+webistes to practise ?  
+  mercury 
+  
+  Testplan > thread group > sampler/request > add > post processer > regulare expression extractor
+  1.select sampler/request has body contain variables
+  2.Name of created variables         :  Username
+  3.Regular expression                : Enter<em>(.+?)</em> for the (username)  
+  4.template grouping $i$  i>>> group number $1$ first group , $2$ secound group
+  5.match                            :0 for random   , 1 for value
+  3.call variables in next request    : ${Username}
+  
+  
+ ------------------------------Mutiple regulare expression with single extractor-----------------------   
+  interview questions 
+  how to grap mutliple variables with single extrctor ? 
+  
+  Exmaple : 
+  variable            : variable/ ay 7aga 
+  Regulare expression : Enter <em>(.+?)</em> for the username and <em>(.+?)</em> for the password
+  template group      : $1$   / means group1 , $2$ means group2 
+                       
+  username : ${var_g1}
+  password : ${var_g2}
+  
+  ----------------------------Create Http request from scratch------------------------------------
+  open network
+  request Example : http://192.168.8.148:1080/cgi-bin/login.pl
+  protocol : http 
+  server   : 192.168.8.148
+  port     : 1080
+  path     : cgi-bin/login.pl
+  http request : get or  post 
+  
+ ----------------------Data Driver --------------------------------------------------------------------------
+dataexcel  has  6 rows 
+thread groupd has 6 users 
+
+
+
+---------------------------- BeanShell PreProcessor--------------------------------
+add > post processer > regulare expression
+ 1.Add > pre processer > BeanShell PreProcessor
+String newUsername;
+
+log.info("Hash3 value :"); 
+log.info(vars.get("country"));
+ 
+String country = vars.get("country");
+ 
+if(country.equals("city1"))
+{
+  newUsername = vars.get("username")+"China";
+ 
+  vars.put("username",newUsername);
+ 
+  log.info("New username is " + newUsername);
+ 
+}
+--------------------------------------dynamic Sign up scenario----------------------------------------------------
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+DateFormat dateFormat = new SimpleDateFormat("MMddyyyyHHmmss");
+Date date = new Date();
+String date1= dateFormat.format(date);
+
+String newUsername;
+
+log.info(vars.get("country"));
+ 
+String country = vars.get("country");
+ 
+if(country.equals("city1"))
+{
+  newUsername = vars.get("username") + date1;
+ 
+  vars.put("username",newUsername);
+ 
+  log.info("New username is " + newUsername);
+}
+
+
+------------------correcltion------------------------------------------------------------------------------------------------
+dynamic values grabes from prevoi sample replacing with script
+
+ 
+ 
+cmd as adminstrarot
+cd 
+
+----------------CDM --------------------
+-n >> non gui mode
+-t >> testplan
+-l >> results
+jmeter -n -t CookiesManager.jmx -l D:\Results.jtl
+
+-------------jmeter distriuter -------------------------- 
+ jemeter distriuter
+ 
+ 1.open jmeter.propetes
+ server.rmi.ssl.disable=false  > make it to server.rmi.ssl.disable=true
+ 
+ 2.open jmeter-server.bat note ip address of slave "192.168.1.4:5473"
+and update it in jmeter.propertics
+
+ 
+ 2.Update remote_hosts=127.0.0.1  <with>  192.168.1.4:5473
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+
+
+
+
+ 
+   
+
+ 
+
+
+
+
+
+
+
+
