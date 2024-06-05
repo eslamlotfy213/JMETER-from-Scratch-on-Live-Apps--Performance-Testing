@@ -1,3 +1,5 @@
+
+
 https://www.perfmatrix.com/apache-jmeter-tutorial/
 javac -version  
  javac 18.0.1.1
@@ -110,7 +112,6 @@ before adding cookies
 	GET https://the-internet.herokuapp.com/login
 	GET data:
 	[no cookies]
-
 after adding cookies
 	GET https://the-internet.herokuapp.com/secure
 	GET data:
@@ -146,8 +147,8 @@ website : http://localhost:1080/WebTours    /   http://localhost:1080/webTours/i
 email :test
 password :123
 
+http://192.168.8.148:1080/cgi-bin/login.pl
 
-192.168.1.4
 
 1: Type about:config in firefox address bar and search for
 a.) Network.captive-portal-service.enabled" and set to FALSE.
@@ -236,15 +237,13 @@ webistes to practise ?
   
  ----------------------Data Driver --------------------------------------------------------------------------
 dataexcel  has  6 rows 
-thread groupd has 6 users 
-
-
-
+thread groupd has 6 users
 ---------------------------- BeanShell PreProcessor--------------------------------
-add > post processer > regulare expression
- 1.Add > pre processer > BeanShell PreProcessor
-String newUsername;
+ 1.add > post processer > regulare expression
 
+ 1.Add > pre processer > BeanShell PreProcessor
+
+String newUsername;
 log.info("Hash3 value :"); 
 log.info(vars.get("country"));
  
@@ -286,11 +285,8 @@ if(country.equals("city1"))
 ------------------correcltion------------------------------------------------------------------------------------------------
 dynamic values grabes from prevoi sample replacing with script
 
- 
- 
 cmd as adminstrarot
 cd 
-
 ----------------CDM --------------------
 -n >> non gui mode
 -t >> testplan
